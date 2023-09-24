@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Topbar() {
+  const isUserLoggedIn= true;
+  
   return (
     <nav className='topbar'>
       <Link href='/' className='flex items-center gap-4'>
